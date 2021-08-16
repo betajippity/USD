@@ -25,6 +25,8 @@
 #include "pxr/imaging/hgiGL/shaderGenerator.h"
 #include "pxr/imaging/hgi/tokens.h"
 
+#include <map>
+
 PXR_NAMESPACE_OPEN_SCOPE
 
 static const std::string &

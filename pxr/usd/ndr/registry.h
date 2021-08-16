@@ -37,6 +37,8 @@
 #include "pxr/usd/ndr/parserPlugin.h"
 #include "pxr/usd/sdf/assetPath.h"
 #include <mutex>
+#include <vector>
+#include <map>
 
 PXR_NAMESPACE_OPEN_SCOPE
 

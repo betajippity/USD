@@ -43,6 +43,7 @@
 #include <utility>
 #include <vector>
 #include <memory>
+#include <algorithm>
 
 #include "pxrDoubleConversion/double-conversion.h"
 #include "pxrDoubleConversion/utils.h"

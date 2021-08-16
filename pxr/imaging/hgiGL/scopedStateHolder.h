@@ -27,6 +27,7 @@
 #include "pxr/pxr.h"
 #include "pxr/imaging/hgiGL/api.h"
 
+#include <stdint.h>
 
 PXR_NAMESPACE_OPEN_SCOPE
 

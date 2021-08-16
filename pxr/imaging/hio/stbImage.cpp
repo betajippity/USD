@@ -22,6 +22,8 @@
 // language governing permissions and limitations under the Apache License.
 //
 
+#include <algorithm>
+
 #include "pxr/imaging/hio/image.h"
 #include "pxr/imaging/hio/types.h"
 
@@ -150,7 +152,7 @@ Hio_StbImage::_GetFilenameExtension()
 {
     std::string fileExtension = ArGetResolver().GetExtension(_filename);
     //convert to lowercase
-    transform(fileExtension.begin(), 
+    std::transform(fileExtension.begin(), 
               fileExtension.end(), 
               fileExtension.begin(), ::tolower);
     return fileExtension;

@@ -36,6 +36,7 @@
 #include "pxr/imaging/hgi/texture.h"
 
 #include <vector>
+#include <map>
 
 PXR_NAMESPACE_OPEN_SCOPE
 

@@ -27,6 +27,7 @@
 #include "pxr/pxr.h"
 
 #include "pxr/imaging/hd/extComputationContext.h"
+#include <map>
 
 PXR_NAMESPACE_OPEN_SCOPE
 
